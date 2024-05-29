@@ -7,7 +7,7 @@ export default function Document() {
         <link href="https://fonts.googleapis.com/css2?family=Diphylleia&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
       </Head>
-      <body>
+      <body className="bg-[#ede7de]">
         <Main />
         <NextScript />
       </body>
