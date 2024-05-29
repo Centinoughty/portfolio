@@ -8,6 +8,7 @@ export default function Document() {
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
       </Head>
       <body className="bg-[#ede7de]">
+        <div id="modal"></div>
         <Main />
         <NextScript />
       </body>

@@ -27,7 +27,7 @@ export default function Header() {
             <a
               href={headerContent[tab]}
               key={index}
-              className="font-mont px-1 text-xl hover:font-semibold rounded-full"
+              className="font-mont sm:px-2 text-lg sm:text-xl hover:font-semibold rounded-full"
             >
               {tab}
             </a>

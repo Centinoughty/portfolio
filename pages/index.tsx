@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Header />
       <main className='flex flex-col gap-6 my-16 text-center text-[#037667]'>
-        <h1 className='text-6xl md:text-8xl font-diph font-bold'>Hi. I'm Nadem</h1>
+        <h1 className='text-5xl sm:text-6xl md:text-8xl font-diph font-bold'>Hi. I'm Nadem</h1>
         <p className='text-3xl md:text-4xl font-mont'>A <TypingEffect data={typingData} /></p>
       </main>
       <Skill />
