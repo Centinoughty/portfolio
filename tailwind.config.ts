@@ -15,6 +15,7 @@ const config: Config = {
       },
       fontFamily: {
         mont: ["Montserrat", "sans-serif"],
+        diph: ["Diphylleia", "serif"],
       },
     },
   },
