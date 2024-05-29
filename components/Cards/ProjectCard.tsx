@@ -16,7 +16,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       <img
         src={project.image}
         alt={project.name}
-        className="mx-auto h-[300px] rounded-t-lg"
+        className="mx-auto h-[300px] rounded-t-2xl"
       />
 
       <p className="text-xl">{project.name}</p>
@@ -25,11 +25,13 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           label="READ MORE"
           url={project.url}
           onNewPage={false}
+          download={false}
           className="px-2 py-1 rounded-md border-black border-2 text-stone-200 bg-yellow-800"
         />
         <Button
           label="OPEN IN GITHUB"
           url={project.gitHub}
+          download={false}
           onNewPage
           className="px-2 py-1 rounded-md border-black border-2 bg-yellow-500"
         />
