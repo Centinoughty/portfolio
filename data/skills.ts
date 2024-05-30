@@ -1,10 +1,10 @@
 export const skills: { [key: string]: string } = {
-  DSA: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quibusdam maxime soluta vitae illo sequi quos perferendis! Aut adipisci aspernatur tempore accusantium consequatur voluptate maxime",
+  DSA: "Proficient in DSA, with a solid understandin of key concepts such as arrays, linked lists, trees. Experienced in solving complex algorithmic problems and optimizing code efficiency.",
   "Frontend Development":
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quibusdam maxime soluta vitae illo sequi quos perferendis! Aut adipisci aspernatur tempore accusantium consequatur voluptate maxime",
+    "Skilled in building modern and responsive UI using HTML, CSS and JavaScript frameworks like React and Next. Proficient in creating interactive websites that deliver exceptional UX.",
   "Backend Development":
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quibusdam maxime soluta vitae illo sequi quos perferendis! Aut adipisci aspernatur tempore accusantium consequatur voluptate maxime",
-  UI: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quibusdam maxime soluta vitae illo sequi quos perferendis! Aut adipisci aspernatur tempore accusantium consequatur voluptate maxime",
+    "Experienced in designing and implementing server-side applications and APIs using Node, and Express. Familiar with database management system such as MongoDB, MySQL, and PostgreSQL.",
+  UI: "Proficient in UI/UX design principles and tools like Figma.",
   Linux:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quibusdam maxime soluta vitae illo sequi quos perferendis! Aut adipisci aspernatur tempore accusantium consequatur voluptate maxime",
+    "Knowledgeable in Linux system administration and command-line operations. Experienced in managing servers, configuring network services, and troubleshooting system issues.",
 };

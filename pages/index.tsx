@@ -3,7 +3,6 @@ import Header from "../components/Header/Header";
 import TypingEffect from "@/util/TypingEffect";
 import { typingData } from "@/data/content";
 import Skill from "@/components/Skills/Skill";
-import Button from "@/util/Button";
 import Framework from "@/components/Frameworks/Framework";
 
 export default function Home() {
@@ -19,7 +18,7 @@ export default function Home() {
           Hi. I'm Nadeem.
         </h1>
         <p className="text-3xl md:text-4xl font-mont">
-          A <TypingEffect data={typingData} />
+          <TypingEffect data={typingData} />
         </p>
         <p className="text-black font-diph text-xl">"The only way to do great work is to love what you do." - Steve Jobs</p>
       </main>
