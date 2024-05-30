@@ -11,9 +11,9 @@ export default function Projects() {
         Projects
       </h1>
       <section className="my-16 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-center">
-        {Object.keys(projects).map((project) => (
+        {Object.keys(projects).length > 0 ? Object.keys(projects).map((project) => (
           <ProjectCard key={projects[project].id} project={projects[project]} />
-        ))}
+        )) : <p>No Project</p>}
       </section>
       <Footer />
     </>
