@@ -10,7 +10,7 @@ export default function Projects() {
       <h1 className="text-5xl sm:text-6xl md:text-8xl font-diph font-bold text-center text-[#037667] my-16">
         Projects
       </h1>
-      <section className="my-16 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-center">
+      <section className="my-16 mx-4 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-center">
         {Object.keys(projects).length > 0 ? Object.keys(projects).map((project) => (
           <ProjectCard key={projects[project].id} project={projects[project]} />
         )) : <p>No Project</p>}

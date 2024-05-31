@@ -1,5 +1,5 @@
 export const skills: { [key: string]: string } = {
-  DSA: "Proficient in DSA, with a solid understandin of key concepts such as arrays, linked lists, trees. Experienced in solving complex algorithmic problems and optimizing code efficiency.",
+  DSA: "Proficient in DSA, with a solid understanding of key concepts such as arrays, linked lists, trees. Experienced in solving complex algorithmic problems and optimizing code efficiency.",
   "Frontend Development":
     "Skilled in building modern and responsive UI using HTML, CSS and JavaScript frameworks like React and Next. Proficient in creating interactive websites that deliver exceptional UX.",
   "Backend Development":
