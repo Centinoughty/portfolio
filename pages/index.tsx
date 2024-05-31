@@ -12,7 +12,7 @@ export default function Home() {
       <main className="flex flex-col gap-6 my-16 items-center text-center text-[#037667]">
         <img
           src="/me1.jpg"
-          className="rounded-full justify-self-center h-[250px] w-[250px]"
+          className="rounded-full justify-self-center h-[220px] w-[220px] md:h-[250px] md:w-[250px]"
         />
         <h1 className="text-5xl sm:text-6xl md:text-8xl font-diph font-bold">
           Hi. I'm Nadeem.

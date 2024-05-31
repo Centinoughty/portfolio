@@ -40,7 +40,7 @@ export default function Header() {
     >
       <header className="py-2">
         <ul
-          className={`px-2 py-1 flex gap-2 @screen xs:gap-6 sm:gap-4 rounded-full transition duration-500 ${
+          className={`px-2 py-2 flex gap-4 @screen xs:gap-6 sm:gap-4 rounded-full transition duration-500 ${
             isScrolled ? " bg-white/50 backdrop-blur-[2px]" : " backdrop-blur-0"
           }`}
         >
@@ -48,7 +48,7 @@ export default function Header() {
             <Link
               href={headerContent[tab]}
               key={index}
-              className="font-mont sm:px-2 text-lg sm:text-xl hover:font-semibold rounded-full"
+              className="font-mont py-1 px-[1px] sm:px-2 text-md sm:text-xl hover:font-semibold rounded-full"
             >
               {tab}
             </Link>

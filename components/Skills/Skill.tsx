@@ -15,7 +15,7 @@ export default function Skill() {
                 className="font-mont flex flex-col gap-4 m-4 text-center rounded-xl duration-300 hover:scale-[1.02] hover:shadow-md"
               >
                 <h3 className="text-xl font-semibold tracking-wide">{skill}</h3>
-                <p className="text-md text-justify md:text-center px-2">
+                <p className="text-md text-center tracking-wide px-2">
                   {skills[skill]}
                 </p>
               </div>
