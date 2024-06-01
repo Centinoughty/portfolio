@@ -8,8 +8,8 @@ export default function Document() {
         <meta name="description" content="Portfolio website of Nadeem M Siyam." />
         <meta name="author" content="Nadeem M Siyam" />
         <meta property="og:title" content="Nadeem M Siyam" />
-        <meta property="og:description" content="Description" />
-        <meta property="og:image" content="/me1.jpg" />
+        <meta property="og:description" content="Portfolio website showcasing my expertise in the field of Development and Programming." />
+        <meta property="og:image" content="/nadeem.jpg" />
         <link rel="icon" href="/logo.png" />
         <link href="https://fonts.googleapis.com/css2?family=Diphylleia&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
