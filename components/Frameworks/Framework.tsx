@@ -5,7 +5,7 @@ export default function Framework() {
     <>
       <p className="font-diph font-bold text-4xl text-center text-[#037667] mt-16">Frameworks & Libraries</p>
       <div className="flex justify-center mt-16 mb-24">
-        <div className="flex gap-6">
+        <div className="flex gap-6 xs:gap-10">
           <FaReact size={50} />
           <FaNode size={50} />
           <FaAngular size={50} />

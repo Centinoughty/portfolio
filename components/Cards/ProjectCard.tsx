@@ -1,10 +1,9 @@
-import Button from "@/util/Button";
-import { useState } from "react";
-import ProjectDetailsModal from "../Modal/ProjectDetailsModal";
+import { FaExternalLinkSquareAlt, FaGithub } from "react-icons/fa";
 
 interface ProjectCardProps {
   project: {
     id: number;
+    open: boolean;
     image: string;
     name: string;
     description: string;
@@ -13,54 +12,45 @@ interface ProjectCardProps {
   };
 }
 
+const buttonClasses =
+  "flex gap-2 px-2 py-1 items-center border-2 rounded-md border-black text-lg bg-black text-[#ede7de]";
+
 export default function ProjectCard({ project }: ProjectCardProps) {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
-  function handleModalOpen() {
-    setIsModalOpen(true);
-  }
-
-  function handleModalClose() {
-    setIsModalOpen(false);
+  function handleOpen(url: string, target: string) {
+    if (url) {
+      window.open(url, target);
+    }
   }
 
   return (
-    <>
-      {isModalOpen && (
-        <ProjectDetailsModal
-          open={isModalOpen}
-          project={project}
-          onClose={handleModalClose}
+    <div className="max-w-[350px] xs:max-w-[450px] xs:min-w-[400px] w-full py-4 font-mont flex flex-col gap-4 m-2 mx-auto border-2 border-black duration-300 hover:scale-[1.01] hover:shadow-md">
+      <button>
+        <img
+          src={project.image}
+          alt={project.name}
+          className="mx-auto w-[350px] h-[205px] rounded-t-2xl"
         />
-      )}
-      <div className="font-mont flex flex-col gap-2 justify-center p-2 m-2 rounded-lg duration-300 hover:scale-[1.02] hover:shadow-lg">
-        <button>
-          <img
-            onClick={handleModalOpen}
-            src={project.image}
-            alt={project.name}
-            className="mx-auto h-[300px] rounded-t-2xl"
-          />
+      </button>
+      <p className="text-xl font-medium">{project.name}</p>
+      <p className="mx-1 my-1">{project.description}</p>
+      <div className="flex gap-4 justify-center">
+        <button
+          onClick={() => handleOpen(project.gitHub, "_blank")}
+          className={buttonClasses}
+        >
+          <FaGithub size={25} className="text-[#ede7de]" />
+          GitHub
         </button>
-
-        <p className="text-xl">{project.name}</p>
-        <div className="flex gap-2 justify-center">
-          <Button
-            label="READ MORE"
-            url={project.url}
-            onNewPage={false}
-            download={false}
-            className="px-2 py-1 rounded-md border-black border-2 text-stone-200 bg-yellow-800"
-          />
-          <Button
-            label="OPEN IN GITHUB"
-            url={project.gitHub}
-            download={false}
-            onNewPage
-            className="px-2 py-1 rounded-md border-black border-2 bg-yellow-500"
-          />
-        </div>
+        <button
+          onClick={() => handleOpen(project.url, "_self")}
+          className={`${buttonClasses} ${
+            project.open ? "visible" : "hidden"
+          }`}
+        >
+          <FaExternalLinkSquareAlt size={20} />
+          Open
+        </button>
       </div>
-    </>
+    </div>
   );
 }
