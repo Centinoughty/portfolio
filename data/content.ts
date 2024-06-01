@@ -1,8 +1,8 @@
 export const headerContent: { [key: string]: string } = {
   Home: "/",
-  About: "/about",
-  Projects: "/projects",
-  Play: "/play",
+  About: "/About",
+  Projects: "/Projects",
+  Play: "/Play",
   Connect: "",
 };
 
