@@ -1,5 +1,6 @@
 interface ProjectsProps {
   id: number;
+  open: boolean;
   image: string;
   name: string;
   description: string;
@@ -10,7 +11,8 @@ interface ProjectsProps {
 export const projects: { [key: string]: ProjectsProps } = {
   Portfolio: {
     id: 85907,
-    image: "/projects/portfolio-webiste.png",
+    open: true,
+    image: "/projects/1 (1).png",
     name: "Porfolio Website",
     description: "My portfolio website, showcasing my skills",
     url: "https://nadeemsiyam.vercel.app",

@@ -20,7 +20,7 @@ export default function CodeForcesCard() {
         const solvedProblems = submissions.filter(
           (submission) => submission.verdict === "OK"
         );
-        setSolvedCount(solvedProblems.length);
+        setSolvedCount(solvedProblems.length - 1);
       }
     } catch (error) {
       setSolvedCount(27);
