@@ -12,7 +12,7 @@ export const projects: { [key: string]: ProjectsProps } = {
   Portfolio: {
     id: 85907,
     open: true,
-    image: "/projects/1 (1).png",
+    image: "/projects/85907.png",
     name: "Porfolio Website",
     description: "My portfolio website, showcasing my skills",
     url: "https://nadeemsiyam.vercel.app",

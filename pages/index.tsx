@@ -4,14 +4,15 @@ import TypingEffect from "@/util/TypingEffect";
 import { typingData } from "@/data/content";
 import Skill from "@/components/Skills/Skill";
 import Framework from "@/components/Frameworks/Framework";
+import Layout from "@/components/Layout/Layout";
 
 export default function Home() {
   return (
-    <>
+    <Layout title="Nadeem M Siyam • Home">
       <Header />
       <main className="flex flex-col gap-6 my-16 items-center text-center text-[#037667]">
         <img
-          src="/me1.jpg"
+          src="/nadeem.jpg"
           className="rounded-full justify-self-center h-[220px] w-[220px] md:h-[250px] md:w-[250px]"
         />
         <h1 className="text-5xl sm:text-6xl md:text-8xl font-diph font-bold">
@@ -25,6 +26,6 @@ export default function Home() {
       <Skill />
       <Framework />
       <Footer />
-    </>
+    </Layout>
   );
 }
