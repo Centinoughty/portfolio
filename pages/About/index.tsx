@@ -3,10 +3,11 @@ import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
 import LeetCode from "@/components/Cards/LeetCodeCard";
 import CodeForcesCard from "@/components/Cards/CodeForcesCard";
+import Layout from "@/components/Layout/Layout";
 
 export default function About() {
   return (
-    <>
+    <Layout title="Nadeem M Siyam • About">
       <Header />
       <AboutPage />
       <section className="flex justify-center">
@@ -16,6 +17,6 @@ export default function About() {
         </div>
       </section>
       <Footer />
-    </>
+    </Layout>
   );
 }

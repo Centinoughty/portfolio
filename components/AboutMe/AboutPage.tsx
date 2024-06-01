@@ -8,7 +8,7 @@ export default function AboutPage() {
           <p className="flex items-center gap-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis!</p>
         </div>
         <div className="order-1 mm:order-2 flex flex-col gap-4 text-center items-center justify-center">
-          <img className="rounded-full h-[220px] w-[220px] md:h-[250px] md:w-[250px]" src="/me1.jpg" />
+          <img className="rounded-full h-[220px] w-[220px] md:h-[250px] md:w-[250px]" src="/nadeem.jpg" />
           <h2 className="font-medium text-3xl text-[#037667]">Nadeem M Siyam</h2>
         </div>
       </div>
