@@ -5,6 +5,8 @@ import { typingData } from "@/data/content";
 import Skill from "@/components/Skills/Skill";
 import Framework from "@/components/Frameworks/Framework";
 import Layout from "@/components/Layout/Layout";
+import ContactCard from "@/components/Cards/ContactCard";
+import ConnectCard from "@/components/Cards/ConnectCard";
 
 export default function Home() {
   return (
@@ -21,10 +23,16 @@ export default function Home() {
         <p className="text-3xl md:text-4xl font-mont">
           <TypingEffect data={typingData} />
         </p>
-        <p className="text-black font-diph text-xl">"The only way to do great work is to love what you do." - Steve Jobs</p>
+        <p className="text-black font-diph text-xl">
+          "The only way to do great work is to love what you do." - Steve Jobs
+        </p>
       </main>
       <Skill />
       <Framework />
+      <section className="flex flex-col md:flex-row items-center md:items-stretch justify-center gap-8 p-8 font-mont">
+        <ContactCard />
+        <ConnectCard />
+      </section>
       <Footer />
     </Layout>
   );

@@ -3,7 +3,7 @@ export const headerContent: { [key: string]: string } = {
   About: "/About",
   Projects: "/Projects",
   Play: "/Play",
-  Connect: "",
+  Resume: "/Resume",
 };
 
 export const typingData: string[] = ["Programmer", "Web Developer", "Designer"];
