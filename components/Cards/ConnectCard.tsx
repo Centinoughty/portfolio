@@ -40,13 +40,15 @@ export default function ConnectCard() {
     }
   }
 
+  const cssClasses = "w-full pl-2 pb-1 bg-transparent border-b border-b-black focus:outline-none";
+
   return (
     <div className="flex-grow w-full max-w-md p-6 rounded-lg shadow-lg">
       <h3 className="text-2xl font-semibold mb-4 text-[#037667]">Connect</h3>
       <form className="flex flex-col gap-4" onSubmit={handleSubmit}>
-        <Input type="text" placeholder="Name" ref={nameRef} />
-        <Input type="email" placeholder="E-mail" ref={emailRef} />
-        <Input type="text" placeholder="Message" ref={messageRef} />
+        <Input type="text" placeholder="Name" ref={nameRef} className={cssClasses} />
+        <Input type="email" placeholder="E-mail" ref={emailRef} className={cssClasses} />
+        <Input type="text" placeholder="Message" ref={messageRef} className={cssClasses} />
         <button className="py-2 px-4 bg-[#037667] text-white rounded-md hover:bg-green-800 transition-colors duration-200">
           Send Message
         </button>
