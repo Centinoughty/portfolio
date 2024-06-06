@@ -4,10 +4,11 @@ interface InputProps {
   placeholder: string;
   className: string;
   type: string;
+  name: string;
 }
 
 const Input = forwardRef<HTMLInputElement, InputProps>(function Input(
-  { placeholder, type, className },
+  { placeholder, type, className, name },
   ref
 ) {
   return (
@@ -16,6 +17,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(function Input(
       required
       ref={ref}
       className={className}
+      name={name}
       type={type}
     />
   );
