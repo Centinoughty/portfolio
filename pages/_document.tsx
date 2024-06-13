@@ -4,6 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+<meta name="google-site-verification" content="WuOKXxDmrFbTUPuLN8CWLjeFU3hvXqZ1Ud3TvN5_tgk" />
         <meta name="keywords" content="Nadeem M Siyam, Centinoughty, centinoughty" />
         <meta name="description" content="Portfolio website of Nadeem M Siyam." />
         <meta name="author" content="Nadeem M Siyam" />
