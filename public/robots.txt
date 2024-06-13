@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://nadeemsiyam.vercel.app
+
+# Sitemaps
+Sitemap: https://nadeemsiyam.vercel.app/sitemap.xml
