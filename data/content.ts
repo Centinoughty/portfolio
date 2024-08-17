@@ -17,5 +17,5 @@ export const footerSocialLinks: { [key: string]: string } = {
 };
 
 export const footerConnectLinks: { [key: string]: string } = {
-  Message: "",
+  Message: "/#connect",
 };

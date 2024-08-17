@@ -24,7 +24,6 @@ export default function CodeForcesCard() {
       }
     } catch (error) {
       setSolvedCount(27);
-      // kjefg
     }
   }
 
@@ -50,7 +49,7 @@ export default function CodeForcesCard() {
           <div className="flex flex-col gap-1">
             <h4>Solved Problems</h4>
             <div>
-              <NumberAnimation delay={500} n={solvedCount} />
+              <NumberAnimation delay={200} n={solvedCount} />
             </div>
           </div>
         </div>
