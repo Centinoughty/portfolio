@@ -34,8 +34,20 @@ export default function About() {
           <CodeForcesCard />
         </div>
       </section>
-      <section className="my-16">
-        <p className="text-center font-diph font-bold text-xl md:text-2xl text-[#037667]">
+      <section className="p-4 flex justify-center font-mont">
+        <p className="w-[90%] sm:w-[80%] md:[70%] lg:w-[60%] text-lg text-center md:text-justify">
+          Passionate about coding with expertise in Python, C++, JavaScript, and
+          other programming languages. I have worked on full-stack projects for
+          startup companies, bringing innovative solutions to life. Always eager
+          to learn and tackle new challenges, I enjoy working in dynamic
+          environments where I can contribute to the success of the team and the
+          project. I bring a versatile skill set and a dedication to excellence
+          to every project I undertake. Let's connect and explore opportunities
+          to create something amazing together!
+        </p>
+      </section>
+      <section className="my-16 flex justify-center">
+        <p className="w-[90%] sm:w-[80%] md:[70%] lg:w-[60%] text-center font-diph font-bold text-xl md:text-2xl text-[#037667]">
           Besides technology, I enjoy drinking coffee. Maybe we should grab a
           cup sometime!
         </p>

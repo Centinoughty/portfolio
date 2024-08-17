@@ -66,7 +66,7 @@ export default function ConnectCard() {
     "w-full pl-2 pb-1 bg-transparent border-b border-b-black focus:outline-none";
 
   return (
-    <div className="flex-grow w-full max-w-md p-6 rounded-lg shadow-lg">
+    <div id="connect" className="flex-grow w-full max-w-md p-6 rounded-lg shadow-lg">
       <h3 className="text-2xl font-semibold mb-4 text-[#037667]">Connect</h3>
       <form
         ref={formRef}

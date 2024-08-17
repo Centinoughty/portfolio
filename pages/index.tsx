@@ -14,6 +14,7 @@ export default function Home() {
       <Header />
       <main className="flex flex-col gap-6 my-16 items-center text-center text-[#037667]">
         <img
+          aria-placeholder="blur"
           src="/nadeem.jpg"
           className="rounded-full justify-self-center h-[220px] w-[220px] md:h-[250px] md:w-[250px]"
         />
