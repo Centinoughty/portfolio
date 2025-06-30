@@ -11,7 +11,7 @@ export default function Document() {
         <meta property="og:title" content="Nadeem M Siyam" />
         <meta property="og:description" content="Portfolio website showcasing my expertise in the field of Development and Programming." />
         <meta property="og:image" content="/nadeem.jpg" />
-        <link rel="icon" href="/logo.png" />
+        <link rel="icon" href="/logo.png" />  
         <link href="https://fonts.googleapis.com/css2?family=Diphylleia&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
       </Head>

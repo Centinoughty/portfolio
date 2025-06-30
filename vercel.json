@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://nadeemsiyam.com/$1",
+      "permanent": true
+    }
+  ]
+}
